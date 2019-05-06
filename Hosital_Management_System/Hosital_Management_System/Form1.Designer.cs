@@ -7898,7 +7898,7 @@
             // 
             this.label37.AutoSize = true;
             this.label37.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.Location = new System.Drawing.Point(13, 15);
+            this.label37.Location = new System.Drawing.Point(21, 23);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(129, 30);
             this.label37.TabIndex = 2;
