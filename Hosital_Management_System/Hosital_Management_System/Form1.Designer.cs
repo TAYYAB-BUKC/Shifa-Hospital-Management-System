@@ -50,6 +50,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -226,6 +231,24 @@
             this.dataGridViewCheckBoxColumn12 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.bunifuTextbox7 = new Bunifu.Framework.UI.BunifuTextbox();
             this.bunifuTextbox8 = new Bunifu.Framework.UI.BunifuTextbox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.vScrollBar5 = new System.Windows.Forms.VScrollBar();
+            this.label8 = new System.Windows.Forms.Label();
+            this.bunifuCards5 = new Bunifu.Framework.UI.BunifuCards();
+            this.bunifuCustomDataGrid5 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.dataGridViewCheckBoxColumn13 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dataGridViewTextBoxColumn13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewComboBoxColumn1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewCheckBoxColumn14 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewCheckBoxColumn15 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.bunifuFlatButton19 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton26 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton27 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuFlatButton28 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.bunifuTextbox9 = new Bunifu.Framework.UI.BunifuTextbox();
+            this.bunifuTextbox10 = new Bunifu.Framework.UI.BunifuTextbox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -273,6 +296,9 @@
             this.panel9.SuspendLayout();
             this.bunifuCards4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).BeginInit();
+            this.panel7.SuspendLayout();
+            this.bunifuCards5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -2148,7 +2174,7 @@
             this.panel6.Controls.Add(this.label3);
             this.panel6.Controls.Add(this.bunifuCards6);
             this.panel6.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel6.Location = new System.Drawing.Point(411, 154);
+            this.panel6.Location = new System.Drawing.Point(411, 141);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(248, 77);
             this.panel6.TabIndex = 33;
@@ -2471,7 +2497,7 @@
             this.panel12.Controls.Add(this.label5);
             this.panel12.Controls.Add(this.bunifuCards1);
             this.panel12.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel12.Location = new System.Drawing.Point(411, 255);
+            this.panel12.Location = new System.Drawing.Point(411, 223);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(248, 66);
             this.panel12.TabIndex = 34;
@@ -2825,7 +2851,7 @@
             this.panel11.Controls.Add(this.label6);
             this.panel11.Controls.Add(this.bunifuCards2);
             this.panel11.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel11.Location = new System.Drawing.Point(411, 341);
+            this.panel11.Location = new System.Drawing.Point(411, 294);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(248, 66);
             this.panel11.TabIndex = 35;
@@ -3179,7 +3205,7 @@
             this.panel9.Controls.Add(this.label7);
             this.panel9.Controls.Add(this.bunifuCards4);
             this.panel9.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel9.Location = new System.Drawing.Point(411, 437);
+            this.panel9.Location = new System.Drawing.Point(411, 365);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(248, 66);
             this.panel9.TabIndex = 38;
@@ -3526,6 +3552,357 @@
             this.bunifuTextbox8.TabIndex = 33;
             this.bunifuTextbox8.text = "Bunifu TextBox";
             // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.White;
+            this.panel7.Controls.Add(this.vScrollBar5);
+            this.panel7.Controls.Add(this.label8);
+            this.panel7.Controls.Add(this.bunifuCards5);
+            this.panel7.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel7.Location = new System.Drawing.Point(411, 436);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(248, 65);
+            this.panel7.TabIndex = 40;
+            // 
+            // vScrollBar5
+            // 
+            this.vScrollBar5.Location = new System.Drawing.Point(1654, -3);
+            this.vScrollBar5.Name = "vScrollBar5";
+            this.vScrollBar5.Size = new System.Drawing.Size(7, 735);
+            this.vScrollBar5.TabIndex = 3;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(57, 15);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(143, 30);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "Payment";
+            // 
+            // bunifuCards5
+            // 
+            this.bunifuCards5.BackColor = System.Drawing.Color.White;
+            this.bunifuCards5.BorderRadius = 5;
+            this.bunifuCards5.BottomSahddow = true;
+            this.bunifuCards5.color = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+            this.bunifuCards5.Controls.Add(this.bunifuCustomDataGrid5);
+            this.bunifuCards5.Controls.Add(this.bunifuFlatButton19);
+            this.bunifuCards5.Controls.Add(this.bunifuFlatButton26);
+            this.bunifuCards5.Controls.Add(this.bunifuFlatButton27);
+            this.bunifuCards5.Controls.Add(this.bunifuFlatButton28);
+            this.bunifuCards5.Controls.Add(this.bunifuTextbox9);
+            this.bunifuCards5.Controls.Add(this.bunifuTextbox10);
+            this.bunifuCards5.LeftSahddow = false;
+            this.bunifuCards5.Location = new System.Drawing.Point(77, 70);
+            this.bunifuCards5.Name = "bunifuCards5";
+            this.bunifuCards5.RightSahddow = true;
+            this.bunifuCards5.ShadowDepth = 20;
+            this.bunifuCards5.Size = new System.Drawing.Size(1495, 792);
+            this.bunifuCards5.TabIndex = 1;
+            // 
+            // bunifuCustomDataGrid5
+            // 
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid5.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle21;
+            this.bunifuCustomDataGrid5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuCustomDataGrid5.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.bunifuCustomDataGrid5.BackgroundColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid5.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bunifuCustomDataGrid5.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
+            this.bunifuCustomDataGrid5.ColumnHeadersHeight = 35;
+            this.bunifuCustomDataGrid5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewCheckBoxColumn13,
+            this.dataGridViewTextBoxColumn13,
+            this.dataGridViewTextBoxColumn14,
+            this.dataGridViewTextBoxColumn15,
+            this.dataGridViewComboBoxColumn1,
+            this.dataGridViewCheckBoxColumn14,
+            this.dataGridViewCheckBoxColumn15});
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuCustomDataGrid5.DefaultCellStyle = dataGridViewCellStyle23;
+            this.bunifuCustomDataGrid5.DoubleBuffered = true;
+            this.bunifuCustomDataGrid5.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid5.GridColor = System.Drawing.Color.Gray;
+            this.bunifuCustomDataGrid5.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+            this.bunifuCustomDataGrid5.HeaderForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid5.Location = new System.Drawing.Point(28, 118);
+            this.bunifuCustomDataGrid5.Name = "bunifuCustomDataGrid5";
+            this.bunifuCustomDataGrid5.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid5.RowHeadersDefaultCellStyle = dataGridViewCellStyle24;
+            this.bunifuCustomDataGrid5.RowHeadersVisible = false;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid5.RowsDefaultCellStyle = dataGridViewCellStyle25;
+            this.bunifuCustomDataGrid5.Size = new System.Drawing.Size(1366, 509);
+            this.bunifuCustomDataGrid5.TabIndex = 35;
+            // 
+            // dataGridViewCheckBoxColumn13
+            // 
+            this.dataGridViewCheckBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewCheckBoxColumn13.Frozen = true;
+            this.dataGridViewCheckBoxColumn13.HeaderText = "Select";
+            this.dataGridViewCheckBoxColumn13.Name = "dataGridViewCheckBoxColumn13";
+            this.dataGridViewCheckBoxColumn13.Width = 150;
+            // 
+            // dataGridViewTextBoxColumn13
+            // 
+            this.dataGridViewTextBoxColumn13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn13.Frozen = true;
+            this.dataGridViewTextBoxColumn13.HeaderText = "Patient";
+            this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
+            this.dataGridViewTextBoxColumn13.Width = 145;
+            // 
+            // dataGridViewTextBoxColumn14
+            // 
+            this.dataGridViewTextBoxColumn14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn14.Frozen = true;
+            this.dataGridViewTextBoxColumn14.HeaderText = "Patient Id";
+            this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
+            this.dataGridViewTextBoxColumn14.Width = 250;
+            // 
+            // dataGridViewTextBoxColumn15
+            // 
+            this.dataGridViewTextBoxColumn15.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewTextBoxColumn15.Frozen = true;
+            this.dataGridViewTextBoxColumn15.HeaderText = "Grand Total";
+            this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
+            this.dataGridViewTextBoxColumn15.Width = 250;
+            // 
+            // dataGridViewComboBoxColumn1
+            // 
+            this.dataGridViewComboBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewComboBoxColumn1.Frozen = true;
+            this.dataGridViewComboBoxColumn1.HeaderText = "Status";
+            this.dataGridViewComboBoxColumn1.Items.AddRange(new object[] {
+            "Paid ",
+            "Not Paid"});
+            this.dataGridViewComboBoxColumn1.Name = "dataGridViewComboBoxColumn1";
+            this.dataGridViewComboBoxColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewComboBoxColumn1.Width = 250;
+            // 
+            // dataGridViewCheckBoxColumn14
+            // 
+            this.dataGridViewCheckBoxColumn14.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewCheckBoxColumn14.Frozen = true;
+            this.dataGridViewCheckBoxColumn14.HeaderText = "Edit";
+            this.dataGridViewCheckBoxColumn14.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewCheckBoxColumn14.Image")));
+            this.dataGridViewCheckBoxColumn14.Name = "dataGridViewCheckBoxColumn14";
+            this.dataGridViewCheckBoxColumn14.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewCheckBoxColumn14.Width = 150;
+            // 
+            // dataGridViewCheckBoxColumn15
+            // 
+            this.dataGridViewCheckBoxColumn15.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dataGridViewCheckBoxColumn15.Frozen = true;
+            this.dataGridViewCheckBoxColumn15.HeaderText = "Delete";
+            this.dataGridViewCheckBoxColumn15.Name = "dataGridViewCheckBoxColumn15";
+            this.dataGridViewCheckBoxColumn15.Width = 150;
+            // 
+            // bunifuFlatButton19
+            // 
+            this.bunifuFlatButton19.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton19.BorderRadius = 0;
+            this.bunifuFlatButton19.ButtonText = "          Inactive";
+            this.bunifuFlatButton19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton19.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton19.Font = new System.Drawing.Font("Century", 12F);
+            this.bunifuFlatButton19.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton19.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton19.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton19.Iconimage")));
+            this.bunifuFlatButton19.Iconimage_right = null;
+            this.bunifuFlatButton19.Iconimage_right_Selected = null;
+            this.bunifuFlatButton19.Iconimage_Selected = null;
+            this.bunifuFlatButton19.IconMarginLeft = 0;
+            this.bunifuFlatButton19.IconMarginRight = 0;
+            this.bunifuFlatButton19.IconRightVisible = true;
+            this.bunifuFlatButton19.IconRightZoom = 0D;
+            this.bunifuFlatButton19.IconVisible = true;
+            this.bunifuFlatButton19.IconZoom = 39D;
+            this.bunifuFlatButton19.IsTab = false;
+            this.bunifuFlatButton19.Location = new System.Drawing.Point(617, 54);
+            this.bunifuFlatButton19.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuFlatButton19.Name = "bunifuFlatButton19";
+            this.bunifuFlatButton19.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton19.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.bunifuFlatButton19.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton19.selected = false;
+            this.bunifuFlatButton19.Size = new System.Drawing.Size(174, 41);
+            this.bunifuFlatButton19.TabIndex = 32;
+            this.bunifuFlatButton19.Text = "          Inactive";
+            this.bunifuFlatButton19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton19.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton19.TextFont = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton26
+            // 
+            this.bunifuFlatButton26.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton26.BorderRadius = 0;
+            this.bunifuFlatButton26.ButtonText = "          Active";
+            this.bunifuFlatButton26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton26.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton26.Font = new System.Drawing.Font("Century", 12F);
+            this.bunifuFlatButton26.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton26.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton26.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton26.Iconimage")));
+            this.bunifuFlatButton26.Iconimage_right = null;
+            this.bunifuFlatButton26.Iconimage_right_Selected = null;
+            this.bunifuFlatButton26.Iconimage_Selected = null;
+            this.bunifuFlatButton26.IconMarginLeft = 0;
+            this.bunifuFlatButton26.IconMarginRight = 0;
+            this.bunifuFlatButton26.IconRightVisible = true;
+            this.bunifuFlatButton26.IconRightZoom = 0D;
+            this.bunifuFlatButton26.IconVisible = true;
+            this.bunifuFlatButton26.IconZoom = 39D;
+            this.bunifuFlatButton26.IsTab = false;
+            this.bunifuFlatButton26.Location = new System.Drawing.Point(419, 54);
+            this.bunifuFlatButton26.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuFlatButton26.Name = "bunifuFlatButton26";
+            this.bunifuFlatButton26.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton26.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.bunifuFlatButton26.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton26.selected = false;
+            this.bunifuFlatButton26.Size = new System.Drawing.Size(174, 41);
+            this.bunifuFlatButton26.TabIndex = 31;
+            this.bunifuFlatButton26.Text = "          Active";
+            this.bunifuFlatButton26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton26.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton26.TextFont = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton27
+            // 
+            this.bunifuFlatButton27.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton27.BorderRadius = 0;
+            this.bunifuFlatButton27.ButtonText = "          Delete";
+            this.bunifuFlatButton27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton27.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton27.Font = new System.Drawing.Font("Century", 12F);
+            this.bunifuFlatButton27.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton27.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton27.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton27.Iconimage")));
+            this.bunifuFlatButton27.Iconimage_right = null;
+            this.bunifuFlatButton27.Iconimage_right_Selected = null;
+            this.bunifuFlatButton27.Iconimage_Selected = null;
+            this.bunifuFlatButton27.IconMarginLeft = 0;
+            this.bunifuFlatButton27.IconMarginRight = 0;
+            this.bunifuFlatButton27.IconRightVisible = true;
+            this.bunifuFlatButton27.IconRightZoom = 0D;
+            this.bunifuFlatButton27.IconVisible = true;
+            this.bunifuFlatButton27.IconZoom = 39D;
+            this.bunifuFlatButton27.IsTab = false;
+            this.bunifuFlatButton27.Location = new System.Drawing.Point(222, 54);
+            this.bunifuFlatButton27.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuFlatButton27.Name = "bunifuFlatButton27";
+            this.bunifuFlatButton27.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton27.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.bunifuFlatButton27.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton27.selected = false;
+            this.bunifuFlatButton27.Size = new System.Drawing.Size(174, 41);
+            this.bunifuFlatButton27.TabIndex = 30;
+            this.bunifuFlatButton27.Text = "          Delete";
+            this.bunifuFlatButton27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton27.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton27.TextFont = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuFlatButton28
+            // 
+            this.bunifuFlatButton28.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuFlatButton28.BorderRadius = 0;
+            this.bunifuFlatButton28.ButtonText = "          Add New";
+            this.bunifuFlatButton28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuFlatButton28.DisabledColor = System.Drawing.Color.Gray;
+            this.bunifuFlatButton28.Font = new System.Drawing.Font("Century", 12F);
+            this.bunifuFlatButton28.ForeColor = System.Drawing.Color.Black;
+            this.bunifuFlatButton28.Iconcolor = System.Drawing.Color.Transparent;
+            this.bunifuFlatButton28.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton28.Iconimage")));
+            this.bunifuFlatButton28.Iconimage_right = null;
+            this.bunifuFlatButton28.Iconimage_right_Selected = null;
+            this.bunifuFlatButton28.Iconimage_Selected = null;
+            this.bunifuFlatButton28.IconMarginLeft = 0;
+            this.bunifuFlatButton28.IconMarginRight = 0;
+            this.bunifuFlatButton28.IconRightVisible = true;
+            this.bunifuFlatButton28.IconRightZoom = 0D;
+            this.bunifuFlatButton28.IconVisible = true;
+            this.bunifuFlatButton28.IconZoom = 39D;
+            this.bunifuFlatButton28.IsTab = false;
+            this.bunifuFlatButton28.Location = new System.Drawing.Point(28, 54);
+            this.bunifuFlatButton28.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.bunifuFlatButton28.Name = "bunifuFlatButton28";
+            this.bunifuFlatButton28.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
+            this.bunifuFlatButton28.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
+            this.bunifuFlatButton28.OnHoverTextColor = System.Drawing.Color.White;
+            this.bunifuFlatButton28.selected = false;
+            this.bunifuFlatButton28.Size = new System.Drawing.Size(174, 41);
+            this.bunifuFlatButton28.TabIndex = 29;
+            this.bunifuFlatButton28.Text = "          Add New";
+            this.bunifuFlatButton28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.bunifuFlatButton28.Textcolor = System.Drawing.Color.White;
+            this.bunifuFlatButton28.TextFont = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            // bunifuTextbox9
+            // 
+            this.bunifuTextbox9.BackColor = System.Drawing.Color.White;
+            this.bunifuTextbox9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox9.BackgroundImage")));
+            this.bunifuTextbox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuTextbox9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuTextbox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+            this.bunifuTextbox9.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox9.Icon")));
+            this.bunifuTextbox9.Location = new System.Drawing.Point(1090, 49);
+            this.bunifuTextbox9.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuTextbox9.Name = "bunifuTextbox9";
+            this.bunifuTextbox9.Size = new System.Drawing.Size(278, 46);
+            this.bunifuTextbox9.TabIndex = 34;
+            this.bunifuTextbox9.text = "";
+            // 
+            // bunifuTextbox10
+            // 
+            this.bunifuTextbox10.BackColor = System.Drawing.Color.Silver;
+            this.bunifuTextbox10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox10.BackgroundImage")));
+            this.bunifuTextbox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuTextbox10.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuTextbox10.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox10.Icon")));
+            this.bunifuTextbox10.Location = new System.Drawing.Point(3448, 104);
+            this.bunifuTextbox10.Margin = new System.Windows.Forms.Padding(12, 9, 12, 9);
+            this.bunifuTextbox10.Name = "bunifuTextbox10";
+            this.bunifuTextbox10.Size = new System.Drawing.Size(927, 123);
+            this.bunifuTextbox10.TabIndex = 33;
+            this.bunifuTextbox10.text = "Bunifu TextBox";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3533,6 +3910,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1456, 735);
+            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel9);
             this.Controls.Add(this.panel11);
             this.Controls.Add(this.panel12);
@@ -3610,6 +3988,10 @@
             this.panel9.PerformLayout();
             this.bunifuCards4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.bunifuCards5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -3791,6 +4173,24 @@
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn12;
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox7;
         private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox8;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.VScrollBar vScrollBar5;
+        private System.Windows.Forms.Label label8;
+        private Bunifu.Framework.UI.BunifuCards bunifuCards5;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid5;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn15;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewComboBoxColumn1;
+        private System.Windows.Forms.DataGridViewImageColumn dataGridViewCheckBoxColumn14;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn15;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton19;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton26;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton27;
+        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton28;
+        private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox9;
+        private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox10;
     }
 }
 
