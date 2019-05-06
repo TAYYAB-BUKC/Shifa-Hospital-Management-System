@@ -129,6 +129,40 @@
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.bunifuElipse9 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse10 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel7 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel10 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel11 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel12 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label24 = new System.Windows.Forms.Label();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel13 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel14 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel15 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel16 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.label36 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -163,6 +197,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.bunifuGradientPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.bunifuGradientPanel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            this.bunifuGradientPanel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            this.bunifuGradientPanel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.bunifuGradientPanel12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            this.bunifuGradientPanel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.bunifuGradientPanel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            this.bunifuGradientPanel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            this.bunifuGradientPanel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -1561,6 +1612,7 @@
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.panel5);
             this.bunifuGradientPanel1.Controls.Add(this.label5);
             this.bunifuGradientPanel1.Controls.Add(this.pictureBox10);
             this.bunifuGradientPanel1.Controls.Add(this.label3);
@@ -2015,6 +2067,449 @@
             this.bunifuElipse10.ElipseRadius = 41;
             this.bunifuElipse10.TargetControl = this.bunifuGradientPanel3;
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.bunifuGradientPanel7);
+            this.panel5.Controls.Add(this.bunifuGradientPanel10);
+            this.panel5.Controls.Add(this.bunifuGradientPanel11);
+            this.panel5.Controls.Add(this.bunifuGradientPanel12);
+            this.panel5.Controls.Add(this.bunifuGradientPanel13);
+            this.panel5.Controls.Add(this.bunifuGradientPanel14);
+            this.panel5.Controls.Add(this.bunifuGradientPanel15);
+            this.panel5.Controls.Add(this.bunifuGradientPanel16);
+            this.panel5.Location = new System.Drawing.Point(7, 55);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(248, 75);
+            this.panel5.TabIndex = 28;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(23, 23);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(94, 30);
+            this.label10.TabIndex = 36;
+            this.label10.Text = "Home";
+            // 
+            // bunifuGradientPanel7
+            // 
+            this.bunifuGradientPanel7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel7.BackgroundImage")));
+            this.bunifuGradientPanel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel7.Controls.Add(this.label15);
+            this.bunifuGradientPanel7.Controls.Add(this.pictureBox16);
+            this.bunifuGradientPanel7.Controls.Add(this.label16);
+            this.bunifuGradientPanel7.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.bunifuGradientPanel7.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(116)))), ((int)(((byte)(108)))));
+            this.bunifuGradientPanel7.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.bunifuGradientPanel7.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(116)))), ((int)(((byte)(108)))));
+            this.bunifuGradientPanel7.Location = new System.Drawing.Point(407, 449);
+            this.bunifuGradientPanel7.Name = "bunifuGradientPanel7";
+            this.bunifuGradientPanel7.Quality = 10;
+            this.bunifuGradientPanel7.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel7.TabIndex = 35;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(139, 36);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(15, 16);
+            this.label15.TabIndex = 8;
+            this.label15.Text = "4";
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
+            this.pictureBox16.Location = new System.Drawing.Point(-8, 9);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(141, 126);
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox16.TabIndex = 7;
+            this.pictureBox16.TabStop = false;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.Location = new System.Drawing.Point(134, 7);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(68, 28);
+            this.label16.TabIndex = 6;
+            this.label16.Text = "Beds";
+            // 
+            // bunifuGradientPanel10
+            // 
+            this.bunifuGradientPanel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel10.BackgroundImage")));
+            this.bunifuGradientPanel10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel10.Controls.Add(this.label17);
+            this.bunifuGradientPanel10.Controls.Add(this.pictureBox19);
+            this.bunifuGradientPanel10.Controls.Add(this.label20);
+            this.bunifuGradientPanel10.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(177)))), ((int)(((byte)(231)))));
+            this.bunifuGradientPanel10.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(31)))), ((int)(((byte)(141)))));
+            this.bunifuGradientPanel10.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(65)))), ((int)(((byte)(154)))));
+            this.bunifuGradientPanel10.GradientTopRight = System.Drawing.SystemColors.Highlight;
+            this.bunifuGradientPanel10.Location = new System.Drawing.Point(71, 449);
+            this.bunifuGradientPanel10.Name = "bunifuGradientPanel10";
+            this.bunifuGradientPanel10.Quality = 10;
+            this.bunifuGradientPanel10.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel10.TabIndex = 34;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.White;
+            this.label17.Location = new System.Drawing.Point(139, 36);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(15, 16);
+            this.label17.TabIndex = 8;
+            this.label17.Text = "4";
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(7, 15);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox19.TabIndex = 7;
+            this.pictureBox19.TabStop = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.White;
+            this.label20.Location = new System.Drawing.Point(134, 7);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(132, 28);
+            this.label20.TabIndex = 6;
+            this.label20.Text = "Medicines";
+            // 
+            // bunifuGradientPanel11
+            // 
+            this.bunifuGradientPanel11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel11.BackgroundImage")));
+            this.bunifuGradientPanel11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel11.Controls.Add(this.label21);
+            this.bunifuGradientPanel11.Controls.Add(this.pictureBox20);
+            this.bunifuGradientPanel11.Controls.Add(this.label22);
+            this.bunifuGradientPanel11.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel11.GradientBottomRight = System.Drawing.Color.Fuchsia;
+            this.bunifuGradientPanel11.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.bunifuGradientPanel11.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel11.Location = new System.Drawing.Point(748, 266);
+            this.bunifuGradientPanel11.Name = "bunifuGradientPanel11";
+            this.bunifuGradientPanel11.Quality = 10;
+            this.bunifuGradientPanel11.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel11.TabIndex = 33;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(139, 36);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(15, 16);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "4";
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(7, 9);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 7;
+            this.pictureBox20.TabStop = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.White;
+            this.label22.Location = new System.Drawing.Point(133, 8);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(147, 28);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "Accountant";
+            // 
+            // bunifuGradientPanel12
+            // 
+            this.bunifuGradientPanel12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel12.BackgroundImage")));
+            this.bunifuGradientPanel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel12.Controls.Add(this.label24);
+            this.bunifuGradientPanel12.Controls.Add(this.pictureBox21);
+            this.bunifuGradientPanel12.Controls.Add(this.label28);
+            this.bunifuGradientPanel12.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel12.GradientBottomRight = System.Drawing.Color.Fuchsia;
+            this.bunifuGradientPanel12.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.bunifuGradientPanel12.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.bunifuGradientPanel12.Location = new System.Drawing.Point(748, 85);
+            this.bunifuGradientPanel12.Name = "bunifuGradientPanel12";
+            this.bunifuGradientPanel12.Quality = 10;
+            this.bunifuGradientPanel12.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel12.TabIndex = 30;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.Location = new System.Drawing.Point(139, 36);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(15, 16);
+            this.label24.TabIndex = 8;
+            this.label24.Text = "4";
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(7, 9);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox21.TabIndex = 7;
+            this.pictureBox21.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.White;
+            this.label28.Location = new System.Drawing.Point(133, 8);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(78, 28);
+            this.label28.TabIndex = 6;
+            this.label28.Text = "Nurse";
+            // 
+            // bunifuGradientPanel13
+            // 
+            this.bunifuGradientPanel13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel13.BackgroundImage")));
+            this.bunifuGradientPanel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel13.Controls.Add(this.label29);
+            this.bunifuGradientPanel13.Controls.Add(this.pictureBox22);
+            this.bunifuGradientPanel13.Controls.Add(this.label30);
+            this.bunifuGradientPanel13.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.bunifuGradientPanel13.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(116)))), ((int)(((byte)(108)))));
+            this.bunifuGradientPanel13.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.bunifuGradientPanel13.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(116)))), ((int)(((byte)(108)))));
+            this.bunifuGradientPanel13.Location = new System.Drawing.Point(407, 266);
+            this.bunifuGradientPanel13.Name = "bunifuGradientPanel13";
+            this.bunifuGradientPanel13.Quality = 10;
+            this.bunifuGradientPanel13.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel13.TabIndex = 32;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(139, 36);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(15, 16);
+            this.label29.TabIndex = 8;
+            this.label29.Text = "4";
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(7, 9);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 7;
+            this.pictureBox22.TabStop = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.White;
+            this.label30.Location = new System.Drawing.Point(130, 7);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(148, 28);
+            this.label30.TabIndex = 6;
+            this.label30.Text = "Laboratorist";
+            // 
+            // bunifuGradientPanel14
+            // 
+            this.bunifuGradientPanel14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel14.BackgroundImage")));
+            this.bunifuGradientPanel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel14.Controls.Add(this.label31);
+            this.bunifuGradientPanel14.Controls.Add(this.pictureBox23);
+            this.bunifuGradientPanel14.Controls.Add(this.label32);
+            this.bunifuGradientPanel14.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(177)))), ((int)(((byte)(231)))));
+            this.bunifuGradientPanel14.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(31)))), ((int)(((byte)(141)))));
+            this.bunifuGradientPanel14.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(65)))), ((int)(((byte)(154)))));
+            this.bunifuGradientPanel14.GradientTopRight = System.Drawing.SystemColors.Highlight;
+            this.bunifuGradientPanel14.Location = new System.Drawing.Point(71, 266);
+            this.bunifuGradientPanel14.Name = "bunifuGradientPanel14";
+            this.bunifuGradientPanel14.Quality = 10;
+            this.bunifuGradientPanel14.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel14.TabIndex = 31;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.White;
+            this.label31.Location = new System.Drawing.Point(139, 36);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(15, 16);
+            this.label31.TabIndex = 8;
+            this.label31.Text = "4";
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(7, 15);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 7;
+            this.pictureBox23.TabStop = false;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(134, 7);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(141, 28);
+            this.label32.TabIndex = 6;
+            this.label32.Text = "Pharmacist";
+            // 
+            // bunifuGradientPanel15
+            // 
+            this.bunifuGradientPanel15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel15.BackgroundImage")));
+            this.bunifuGradientPanel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel15.Controls.Add(this.label33);
+            this.bunifuGradientPanel15.Controls.Add(this.pictureBox24);
+            this.bunifuGradientPanel15.Controls.Add(this.label34);
+            this.bunifuGradientPanel15.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.bunifuGradientPanel15.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(116)))), ((int)(((byte)(108)))));
+            this.bunifuGradientPanel15.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.bunifuGradientPanel15.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(116)))), ((int)(((byte)(108)))));
+            this.bunifuGradientPanel15.Location = new System.Drawing.Point(407, 85);
+            this.bunifuGradientPanel15.Name = "bunifuGradientPanel15";
+            this.bunifuGradientPanel15.Quality = 10;
+            this.bunifuGradientPanel15.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel15.TabIndex = 29;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.White;
+            this.label33.Location = new System.Drawing.Point(139, 36);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(15, 16);
+            this.label33.TabIndex = 8;
+            this.label33.Text = "4";
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(7, 9);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 7;
+            this.pictureBox24.TabStop = false;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.White;
+            this.label34.Location = new System.Drawing.Point(134, 7);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(101, 28);
+            this.label34.TabIndex = 6;
+            this.label34.Text = "Patients";
+            // 
+            // bunifuGradientPanel16
+            // 
+            this.bunifuGradientPanel16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel16.BackgroundImage")));
+            this.bunifuGradientPanel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel16.Controls.Add(this.label35);
+            this.bunifuGradientPanel16.Controls.Add(this.pictureBox25);
+            this.bunifuGradientPanel16.Controls.Add(this.label36);
+            this.bunifuGradientPanel16.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(177)))), ((int)(((byte)(231)))));
+            this.bunifuGradientPanel16.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(31)))), ((int)(((byte)(141)))));
+            this.bunifuGradientPanel16.GradientTopLeft = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(65)))), ((int)(((byte)(154)))));
+            this.bunifuGradientPanel16.GradientTopRight = System.Drawing.SystemColors.Highlight;
+            this.bunifuGradientPanel16.Location = new System.Drawing.Point(71, 85);
+            this.bunifuGradientPanel16.Name = "bunifuGradientPanel16";
+            this.bunifuGradientPanel16.Quality = 10;
+            this.bunifuGradientPanel16.Size = new System.Drawing.Size(281, 153);
+            this.bunifuGradientPanel16.TabIndex = 28;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.White;
+            this.label35.Location = new System.Drawing.Point(139, 36);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(15, 16);
+            this.label35.TabIndex = 8;
+            this.label35.Text = "5";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(7, 15);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(126, 126);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox25.TabIndex = 7;
+            this.pictureBox25.TabStop = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(134, 7);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(100, 28);
+            this.label36.TabIndex = 6;
+            this.label36.Text = "Doctors";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2084,6 +2579,32 @@
             this.bunifuGradientPanel4.ResumeLayout(false);
             this.bunifuGradientPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.bunifuGradientPanel7.ResumeLayout(false);
+            this.bunifuGradientPanel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            this.bunifuGradientPanel10.ResumeLayout(false);
+            this.bunifuGradientPanel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            this.bunifuGradientPanel11.ResumeLayout(false);
+            this.bunifuGradientPanel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.bunifuGradientPanel12.ResumeLayout(false);
+            this.bunifuGradientPanel12.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            this.bunifuGradientPanel13.ResumeLayout(false);
+            this.bunifuGradientPanel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.bunifuGradientPanel14.ResumeLayout(false);
+            this.bunifuGradientPanel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            this.bunifuGradientPanel15.ResumeLayout(false);
+            this.bunifuGradientPanel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            this.bunifuGradientPanel16.ResumeLayout(false);
+            this.bunifuGradientPanel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2188,6 +2709,40 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse9;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse10;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label10;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel7;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Label label16;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel10;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private System.Windows.Forms.Label label20;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel11;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Label label22;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel12;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.Label label28;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel13;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Label label30;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel14;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.Label label32;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel15;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.Label label34;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel16;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.Label label36;
     }
 }
 
