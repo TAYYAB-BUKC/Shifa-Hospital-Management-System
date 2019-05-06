@@ -276,6 +276,11 @@ namespace Hosital_Management_System
         {
 
         }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }
 
