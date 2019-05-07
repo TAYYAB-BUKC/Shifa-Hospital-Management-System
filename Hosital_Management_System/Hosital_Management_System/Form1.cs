@@ -281,6 +281,58 @@ namespace Hosital_Management_System
         {
 
         }
+
+        private void bunifuFlatButton13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_FinanceManagement_Click(object sender, EventArgs e)
+        {
+            timer2.Start();
+        }
+
+        private void Btn_UserManagement_Click_1(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void Btn_MedicineManagement_Click(object sender, EventArgs e)
+        {
+            timer3.Start();
+        }
+
+        private void Btn_BedManagement_Click(object sender, EventArgs e)
+        {
+            timer4.Start();
+
+        }
+
+        private void Btn_LabManagement_Click(object sender, EventArgs e)
+        {
+            timer5.Start();
+
+        }
+
+        private void Btn_Admin_Logout_Click_2(object sender, EventArgs e)
+        {
+            timer6.Start();
+        }
+
+        private void Btn_Admin_Logout_Click_3(object sender, EventArgs e)
+        {
+            timer6.Start();
+        }
     }
     }
 

@@ -94,5 +94,20 @@
   <ItemGroup>
     <None Include="Pictures\Payment.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\first-aid-kit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\flask %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\hospital-bed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\user %282%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
