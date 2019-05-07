@@ -994,6 +994,30 @@
             this.pictureBox117 = new System.Windows.Forms.PictureBox();
             this.pictureBox118 = new System.Windows.Forms.PictureBox();
             this.pictureBox119 = new System.Windows.Forms.PictureBox();
+            this.panel47 = new System.Windows.Forms.Panel();
+            this.bunifuGradientPanel57 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.pictureBox120 = new System.Windows.Forms.PictureBox();
+            this.label200 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel58 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.label201 = new System.Windows.Forms.Label();
+            this.label202 = new System.Windows.Forms.Label();
+            this.label203 = new System.Windows.Forms.Label();
+            this.pictureBox121 = new System.Windows.Forms.PictureBox();
+            this.label204 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel59 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.pictureBox122 = new System.Windows.Forms.PictureBox();
+            this.label205 = new System.Windows.Forms.Label();
+            this.label206 = new System.Windows.Forms.Label();
+            this.bunifuGradientPanel60 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.pictureBox123 = new System.Windows.Forms.PictureBox();
+            this.label207 = new System.Windows.Forms.Label();
+            this.pictureBox124 = new System.Windows.Forms.PictureBox();
+            this.pictureBox125 = new System.Windows.Forms.PictureBox();
+            this.pictureBox126 = new System.Windows.Forms.PictureBox();
+            this.pictureBox127 = new System.Windows.Forms.PictureBox();
+            this.pictureBox128 = new System.Windows.Forms.PictureBox();
+            this.pictureBox129 = new System.Windows.Forms.PictureBox();
+            this.pictureBox130 = new System.Windows.Forms.PictureBox();
             this.panel5.SuspendLayout();
             this.bunifuGradientPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -1271,6 +1295,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).BeginInit();
+            this.panel47.SuspendLayout();
+            this.bunifuGradientPanel57.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).BeginInit();
+            this.bunifuGradientPanel58.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).BeginInit();
+            this.bunifuGradientPanel59.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).BeginInit();
+            this.bunifuGradientPanel60.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -16308,6 +16348,315 @@
             this.pictureBox119.TabIndex = 65;
             this.pictureBox119.TabStop = false;
             // 
+            // panel47
+            // 
+            this.panel47.BackColor = System.Drawing.Color.White;
+            this.panel47.Controls.Add(this.bunifuGradientPanel57);
+            this.panel47.Controls.Add(this.bunifuGradientPanel58);
+            this.panel47.Controls.Add(this.bunifuGradientPanel59);
+            this.panel47.Controls.Add(this.label206);
+            this.panel47.Controls.Add(this.bunifuGradientPanel60);
+            this.panel47.Controls.Add(this.pictureBox124);
+            this.panel47.Controls.Add(this.pictureBox125);
+            this.panel47.Controls.Add(this.pictureBox126);
+            this.panel47.Controls.Add(this.pictureBox127);
+            this.panel47.Controls.Add(this.pictureBox128);
+            this.panel47.Controls.Add(this.pictureBox129);
+            this.panel47.Controls.Add(this.pictureBox130);
+            this.panel47.Location = new System.Drawing.Point(965, 725);
+            this.panel47.Name = "panel47";
+            this.panel47.Size = new System.Drawing.Size(280, 63);
+            this.panel47.TabIndex = 82;
+            // 
+            // bunifuGradientPanel57
+            // 
+            this.bunifuGradientPanel57.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel57.BackgroundImage")));
+            this.bunifuGradientPanel57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel57.Controls.Add(this.pictureBox120);
+            this.bunifuGradientPanel57.Controls.Add(this.label200);
+            this.bunifuGradientPanel57.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(101)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel57.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel57.GradientTopLeft = System.Drawing.Color.DarkViolet;
+            this.bunifuGradientPanel57.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel57.Location = new System.Drawing.Point(528, 250);
+            this.bunifuGradientPanel57.Name = "bunifuGradientPanel57";
+            this.bunifuGradientPanel57.Quality = 10;
+            this.bunifuGradientPanel57.Size = new System.Drawing.Size(439, 146);
+            this.bunifuGradientPanel57.TabIndex = 59;
+            // 
+            // pictureBox120
+            // 
+            this.pictureBox120.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox120.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox120.Image")));
+            this.pictureBox120.Location = new System.Drawing.Point(7, 15);
+            this.pictureBox120.Name = "pictureBox120";
+            this.pictureBox120.Size = new System.Drawing.Size(126, 86);
+            this.pictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox120.TabIndex = 7;
+            this.pictureBox120.TabStop = false;
+            // 
+            // label200
+            // 
+            this.label200.AutoSize = true;
+            this.label200.BackColor = System.Drawing.Color.Transparent;
+            this.label200.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label200.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label200.ForeColor = System.Drawing.Color.White;
+            this.label200.Location = new System.Drawing.Point(309, 6);
+            this.label200.Name = "label200";
+            this.label200.Size = new System.Drawing.Size(130, 28);
+            this.label200.TabIndex = 6;
+            this.label200.Text = "Edit Profile";
+            // 
+            // bunifuGradientPanel58
+            // 
+            this.bunifuGradientPanel58.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel58.BackgroundImage")));
+            this.bunifuGradientPanel58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel58.Controls.Add(this.label201);
+            this.bunifuGradientPanel58.Controls.Add(this.label202);
+            this.bunifuGradientPanel58.Controls.Add(this.label203);
+            this.bunifuGradientPanel58.Controls.Add(this.pictureBox121);
+            this.bunifuGradientPanel58.Controls.Add(this.label204);
+            this.bunifuGradientPanel58.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(101)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel58.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel58.GradientTopLeft = System.Drawing.Color.DarkViolet;
+            this.bunifuGradientPanel58.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel58.Location = new System.Drawing.Point(71, 250);
+            this.bunifuGradientPanel58.Name = "bunifuGradientPanel58";
+            this.bunifuGradientPanel58.Quality = 10;
+            this.bunifuGradientPanel58.Size = new System.Drawing.Size(439, 146);
+            this.bunifuGradientPanel58.TabIndex = 33;
+            // 
+            // label201
+            // 
+            this.label201.AutoSize = true;
+            this.label201.BackColor = System.Drawing.Color.Transparent;
+            this.label201.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label201.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label201.ForeColor = System.Drawing.Color.White;
+            this.label201.Location = new System.Drawing.Point(355, 81);
+            this.label201.Name = "label201";
+            this.label201.Size = new System.Drawing.Size(80, 16);
+            this.label201.TabIndex = 10;
+            this.label201.Text = "Patient Test";
+            // 
+            // label202
+            // 
+            this.label202.AutoSize = true;
+            this.label202.BackColor = System.Drawing.Color.Transparent;
+            this.label202.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label202.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label202.ForeColor = System.Drawing.Color.White;
+            this.label202.Location = new System.Drawing.Point(299, 61);
+            this.label202.Name = "label202";
+            this.label202.Size = new System.Drawing.Size(136, 16);
+            this.label202.TabIndex = 9;
+            this.label202.Text = "Lab Test Catagories";
+            // 
+            // label203
+            // 
+            this.label203.AutoSize = true;
+            this.label203.BackColor = System.Drawing.Color.Transparent;
+            this.label203.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label203.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label203.ForeColor = System.Drawing.Color.White;
+            this.label203.Location = new System.Drawing.Point(375, 41);
+            this.label203.Name = "label203";
+            this.label203.Size = new System.Drawing.Size(60, 16);
+            this.label203.TabIndex = 8;
+            this.label203.Text = "Lab Test";
+            // 
+            // pictureBox121
+            // 
+            this.pictureBox121.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox121.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox121.Image")));
+            this.pictureBox121.Location = new System.Drawing.Point(7, 15);
+            this.pictureBox121.Name = "pictureBox121";
+            this.pictureBox121.Size = new System.Drawing.Size(126, 86);
+            this.pictureBox121.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox121.TabIndex = 7;
+            this.pictureBox121.TabStop = false;
+            // 
+            // label204
+            // 
+            this.label204.AutoSize = true;
+            this.label204.BackColor = System.Drawing.Color.Transparent;
+            this.label204.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label204.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label204.ForeColor = System.Drawing.Color.White;
+            this.label204.Location = new System.Drawing.Point(215, 6);
+            this.label204.Name = "label204";
+            this.label204.Size = new System.Drawing.Size(220, 28);
+            this.label204.TabIndex = 6;
+            this.label204.Text = "Lab Management";
+            // 
+            // bunifuGradientPanel59
+            // 
+            this.bunifuGradientPanel59.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel59.BackgroundImage")));
+            this.bunifuGradientPanel59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel59.Controls.Add(this.pictureBox122);
+            this.bunifuGradientPanel59.Controls.Add(this.label205);
+            this.bunifuGradientPanel59.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(101)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel59.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel59.GradientTopLeft = System.Drawing.Color.DarkViolet;
+            this.bunifuGradientPanel59.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel59.Location = new System.Drawing.Point(528, 85);
+            this.bunifuGradientPanel59.Name = "bunifuGradientPanel59";
+            this.bunifuGradientPanel59.Quality = 10;
+            this.bunifuGradientPanel59.Size = new System.Drawing.Size(439, 146);
+            this.bunifuGradientPanel59.TabIndex = 30;
+            // 
+            // pictureBox122
+            // 
+            this.pictureBox122.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox122.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox122.Image")));
+            this.pictureBox122.Location = new System.Drawing.Point(14, 11);
+            this.pictureBox122.Name = "pictureBox122";
+            this.pictureBox122.Size = new System.Drawing.Size(126, 86);
+            this.pictureBox122.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox122.TabIndex = 7;
+            this.pictureBox122.TabStop = false;
+            // 
+            // label205
+            // 
+            this.label205.AutoSize = true;
+            this.label205.BackColor = System.Drawing.Color.Transparent;
+            this.label205.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label205.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label205.ForeColor = System.Drawing.Color.White;
+            this.label205.Location = new System.Drawing.Point(335, 6);
+            this.label205.Name = "label205";
+            this.label205.Size = new System.Drawing.Size(101, 28);
+            this.label205.TabIndex = 6;
+            this.label205.Text = "Patients";
+            // 
+            // label206
+            // 
+            this.label206.AutoSize = true;
+            this.label206.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label206.Location = new System.Drawing.Point(23, 23);
+            this.label206.Name = "label206";
+            this.label206.Size = new System.Drawing.Size(355, 30);
+            this.label206.TabIndex = 36;
+            this.label206.Text = "Laboratorist Site Map";
+            // 
+            // bunifuGradientPanel60
+            // 
+            this.bunifuGradientPanel60.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel60.BackgroundImage")));
+            this.bunifuGradientPanel60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel60.Controls.Add(this.pictureBox123);
+            this.bunifuGradientPanel60.Controls.Add(this.label207);
+            this.bunifuGradientPanel60.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(101)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel60.GradientBottomRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel60.GradientTopLeft = System.Drawing.Color.DarkViolet;
+            this.bunifuGradientPanel60.GradientTopRight = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(203)))), ((int)(((byte)(252)))));
+            this.bunifuGradientPanel60.Location = new System.Drawing.Point(71, 85);
+            this.bunifuGradientPanel60.Name = "bunifuGradientPanel60";
+            this.bunifuGradientPanel60.Quality = 10;
+            this.bunifuGradientPanel60.Size = new System.Drawing.Size(439, 146);
+            this.bunifuGradientPanel60.TabIndex = 28;
+            // 
+            // pictureBox123
+            // 
+            this.pictureBox123.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox123.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox123.Image")));
+            this.pictureBox123.Location = new System.Drawing.Point(7, 15);
+            this.pictureBox123.Name = "pictureBox123";
+            this.pictureBox123.Size = new System.Drawing.Size(126, 86);
+            this.pictureBox123.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox123.TabIndex = 7;
+            this.pictureBox123.TabStop = false;
+            // 
+            // label207
+            // 
+            this.label207.AutoSize = true;
+            this.label207.BackColor = System.Drawing.Color.Transparent;
+            this.label207.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label207.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label207.ForeColor = System.Drawing.Color.White;
+            this.label207.Location = new System.Drawing.Point(294, 6);
+            this.label207.Name = "label207";
+            this.label207.Size = new System.Drawing.Size(141, 28);
+            this.label207.TabIndex = 6;
+            this.label207.Text = "Dashboard";
+            // 
+            // pictureBox124
+            // 
+            this.pictureBox124.BackColor = System.Drawing.Color.White;
+            this.pictureBox124.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox124.Image")));
+            this.pictureBox124.Location = new System.Drawing.Point(226, -41);
+            this.pictureBox124.Name = "pictureBox124";
+            this.pictureBox124.Size = new System.Drawing.Size(222, 123);
+            this.pictureBox124.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox124.TabIndex = 56;
+            this.pictureBox124.TabStop = false;
+            // 
+            // pictureBox125
+            // 
+            this.pictureBox125.BackColor = System.Drawing.Color.White;
+            this.pictureBox125.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox125.Image")));
+            this.pictureBox125.Location = new System.Drawing.Point(411, 166);
+            this.pictureBox125.Name = "pictureBox125";
+            this.pictureBox125.Size = new System.Drawing.Size(222, 123);
+            this.pictureBox125.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox125.TabIndex = 60;
+            this.pictureBox125.TabStop = false;
+            // 
+            // pictureBox126
+            // 
+            this.pictureBox126.BackColor = System.Drawing.Color.White;
+            this.pictureBox126.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox126.Image")));
+            this.pictureBox126.Location = new System.Drawing.Point(411, 329);
+            this.pictureBox126.Name = "pictureBox126";
+            this.pictureBox126.Size = new System.Drawing.Size(222, 123);
+            this.pictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox126.TabIndex = 61;
+            this.pictureBox126.TabStop = false;
+            // 
+            // pictureBox127
+            // 
+            this.pictureBox127.BackColor = System.Drawing.Color.White;
+            this.pictureBox127.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox127.Image")));
+            this.pictureBox127.Location = new System.Drawing.Point(890, 23);
+            this.pictureBox127.Name = "pictureBox127";
+            this.pictureBox127.Size = new System.Drawing.Size(222, 123);
+            this.pictureBox127.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox127.TabIndex = 62;
+            this.pictureBox127.TabStop = false;
+            // 
+            // pictureBox128
+            // 
+            this.pictureBox128.BackColor = System.Drawing.Color.White;
+            this.pictureBox128.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox128.Image")));
+            this.pictureBox128.Location = new System.Drawing.Point(1272, 166);
+            this.pictureBox128.Name = "pictureBox128";
+            this.pictureBox128.Size = new System.Drawing.Size(222, 123);
+            this.pictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox128.TabIndex = 63;
+            this.pictureBox128.TabStop = false;
+            // 
+            // pictureBox129
+            // 
+            this.pictureBox129.BackColor = System.Drawing.Color.White;
+            this.pictureBox129.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox129.Image")));
+            this.pictureBox129.Location = new System.Drawing.Point(868, 322);
+            this.pictureBox129.Name = "pictureBox129";
+            this.pictureBox129.Size = new System.Drawing.Size(222, 123);
+            this.pictureBox129.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox129.TabIndex = 64;
+            this.pictureBox129.TabStop = false;
+            // 
+            // pictureBox130
+            // 
+            this.pictureBox130.BackColor = System.Drawing.Color.White;
+            this.pictureBox130.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox130.Image")));
+            this.pictureBox130.Location = new System.Drawing.Point(475, -41);
+            this.pictureBox130.Name = "pictureBox130";
+            this.pictureBox130.Size = new System.Drawing.Size(309, 174);
+            this.pictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox130.TabIndex = 65;
+            this.pictureBox130.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -16315,6 +16664,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1497, 893);
+            this.Controls.Add(this.panel47);
             this.Controls.Add(this.panel46);
             this.Controls.Add(this.panel45);
             this.Controls.Add(this.panel44);
@@ -16737,6 +17087,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox117)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox118)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox119)).EndInit();
+            this.panel47.ResumeLayout(false);
+            this.panel47.PerformLayout();
+            this.bunifuGradientPanel57.ResumeLayout(false);
+            this.bunifuGradientPanel57.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox120)).EndInit();
+            this.bunifuGradientPanel58.ResumeLayout(false);
+            this.bunifuGradientPanel58.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox121)).EndInit();
+            this.bunifuGradientPanel59.ResumeLayout(false);
+            this.bunifuGradientPanel59.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox122)).EndInit();
+            this.bunifuGradientPanel60.ResumeLayout(false);
+            this.bunifuGradientPanel60.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox123)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox124)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox125)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox126)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox127)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox128)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox129)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox130)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -17626,6 +17997,30 @@
         private System.Windows.Forms.PictureBox pictureBox117;
         private System.Windows.Forms.PictureBox pictureBox118;
         private System.Windows.Forms.PictureBox pictureBox119;
+        private System.Windows.Forms.Panel panel47;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel57;
+        private System.Windows.Forms.PictureBox pictureBox120;
+        private System.Windows.Forms.Label label200;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel58;
+        private System.Windows.Forms.Label label201;
+        private System.Windows.Forms.Label label202;
+        private System.Windows.Forms.Label label203;
+        private System.Windows.Forms.PictureBox pictureBox121;
+        private System.Windows.Forms.Label label204;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel59;
+        private System.Windows.Forms.PictureBox pictureBox122;
+        private System.Windows.Forms.Label label205;
+        private System.Windows.Forms.Label label206;
+        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel60;
+        private System.Windows.Forms.PictureBox pictureBox123;
+        private System.Windows.Forms.Label label207;
+        private System.Windows.Forms.PictureBox pictureBox124;
+        private System.Windows.Forms.PictureBox pictureBox125;
+        private System.Windows.Forms.PictureBox pictureBox126;
+        private System.Windows.Forms.PictureBox pictureBox127;
+        private System.Windows.Forms.PictureBox pictureBox128;
+        private System.Windows.Forms.PictureBox pictureBox129;
+        private System.Windows.Forms.PictureBox pictureBox130;
     }
 }
 
