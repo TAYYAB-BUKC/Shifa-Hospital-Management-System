@@ -333,6 +333,11 @@ namespace Hosital_Management_System
         {
             timer6.Start();
         }
+
+        private void panel36_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }
 
