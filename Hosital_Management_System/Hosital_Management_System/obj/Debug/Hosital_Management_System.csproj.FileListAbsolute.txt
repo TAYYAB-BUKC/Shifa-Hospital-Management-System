@@ -22,3 +22,4 @@ C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosit
 C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.exe
 C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.pdb
 C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csprojAssemblyReference.cache
+C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.LogIn.resources
