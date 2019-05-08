@@ -1,12 +1,5 @@
 ﻿using Hosital_Management_System.Properties;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hosital_Management_System
@@ -216,8 +209,8 @@ namespace Hosital_Management_System
             if (isCollapsed)
             {
                 Btn_Admin_Logout.Iconimage_right = Resources.right1;
-                panel3.Height += 10;
-                if (panel3.Size == panel3.MaximumSize)
+                Pn_ManageProfile.Height += 10;
+                if (Pn_ManageProfile.Size == Pn_ManageProfile.MaximumSize)
                 {
                     timer6.Stop();
                     isCollapsed = false;
@@ -226,8 +219,8 @@ namespace Hosital_Management_System
             else
             {
                 Btn_Admin_Logout.Iconimage_right = Resources.left;
-                panel3.Height -= 10;
-                if (panel3.Size == panel3.MinimumSize)
+                Pn_ManageProfile.Height -= 10;
+                if (Pn_ManageProfile.Size == Pn_ManageProfile.MinimumSize)
                 {
                     timer6.Stop();
                     isCollapsed = true;
