@@ -23,3 +23,16 @@ C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosit
 C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.pdb
 C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csprojAssemblyReference.cache
 C:\Users\MUHAMMADWAQAS\Desktop\GitHub-HMS\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.LogIn.resources
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Hosital_Management_System.exe.config
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Hosital_Management_System.exe
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Hosital_Management_System.pdb
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csprojAssemblyReference.cache
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.Form1.resources
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.LogIn.resources
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.Properties.Resources.resources
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csproj.GenerateResource.cache
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csproj.CopyComplete
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.exe
+C:\Users\TAYYAB DOST\source\repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.pdb
