@@ -4,10 +4,10 @@ using System.Windows.Forms;
 
 namespace Hosital_Management_System
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private bool isCollapsed;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }

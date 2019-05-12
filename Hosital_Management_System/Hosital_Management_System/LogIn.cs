@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LoginController;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,30 +13,17 @@ namespace Hosital_Management_System
 {
     public partial class LogIn : Form
     {
+		Login_Controller login_Controller = new Login_Controller();
         public LogIn()
         {
             InitializeComponent();
 
         }
 
-        private void bunifuGradientPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void LogIn_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuGradientPanel3_Paint(object sender, PaintEventArgs e)
-        {
-           
-        }
-    }
+		private void BunifuFlatButton_SignIn_Click(object sender, EventArgs e)
+		{
+			MainForm mainForm = new MainForm();
+			login_Controller.Login(BunifuMetroTextbox_Email,BunifuMetroTextbox_Password,this,mainForm);
+		}
+	}
 }

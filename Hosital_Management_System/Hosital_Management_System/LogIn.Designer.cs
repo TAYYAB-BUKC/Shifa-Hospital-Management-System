@@ -34,11 +34,11 @@
 			this.label5 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+			this.BunifuFlatButton_SignIn = new Bunifu.Framework.UI.BunifuFlatButton();
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
-			this.bunifuMetroTextbox1 = new Bunifu.Framework.UI.BunifuMetroTextbox();
-			this.bunifuMetroTextbox2 = new Bunifu.Framework.UI.BunifuMetroTextbox();
+			this.BunifuMetroTextbox_Password = new Bunifu.Framework.UI.BunifuMetroTextbox();
+			this.BunifuMetroTextbox_Email = new Bunifu.Framework.UI.BunifuMetroTextbox();
 			this.label4 = new System.Windows.Forms.Label();
 			this.label67 = new System.Windows.Forms.Label();
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -86,11 +86,11 @@
 			this.bunifuGradientPanel1.Controls.Add(this.label5);
 			this.bunifuGradientPanel1.Controls.Add(this.label3);
 			this.bunifuGradientPanel1.Controls.Add(this.label2);
-			this.bunifuGradientPanel1.Controls.Add(this.bunifuFlatButton1);
+			this.bunifuGradientPanel1.Controls.Add(this.BunifuFlatButton_SignIn);
 			this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
 			this.bunifuGradientPanel1.Controls.Add(this.label1);
-			this.bunifuGradientPanel1.Controls.Add(this.bunifuMetroTextbox1);
-			this.bunifuGradientPanel1.Controls.Add(this.bunifuMetroTextbox2);
+			this.bunifuGradientPanel1.Controls.Add(this.BunifuMetroTextbox_Password);
+			this.bunifuGradientPanel1.Controls.Add(this.BunifuMetroTextbox_Email);
 			this.bunifuGradientPanel1.Controls.Add(this.label4);
 			this.bunifuGradientPanel1.Controls.Add(this.label67);
 			this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(48)))));
@@ -103,7 +103,6 @@
 			this.bunifuGradientPanel1.Quality = 10;
 			this.bunifuGradientPanel1.Size = new System.Drawing.Size(510, 567);
 			this.bunifuGradientPanel1.TabIndex = 112;
-			this.bunifuGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuGradientPanel1_Paint);
 			// 
 			// label5
 			// 
@@ -143,44 +142,44 @@
 			this.label2.TabIndex = 119;
 			this.label2.Text = "Forgot Password";
 			// 
-			// bunifuFlatButton1
+			// BunifuFlatButton_SignIn
 			// 
-			this.bunifuFlatButton1.Activecolor = System.Drawing.Color.Transparent;
-			this.bunifuFlatButton1.BackColor = System.Drawing.Color.Transparent;
-			this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-			this.bunifuFlatButton1.BorderRadius = 0;
-			this.bunifuFlatButton1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.bunifuFlatButton1.ButtonText = "            Sign In";
-			this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-			this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Transparent;
-			this.bunifuFlatButton1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuFlatButton1.ForeColor = System.Drawing.Color.White;
-			this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-			this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
-			this.bunifuFlatButton1.Iconimage_right = null;
-			this.bunifuFlatButton1.Iconimage_right_Selected = null;
-			this.bunifuFlatButton1.Iconimage_Selected = null;
-			this.bunifuFlatButton1.IconMarginLeft = 0;
-			this.bunifuFlatButton1.IconMarginRight = 0;
-			this.bunifuFlatButton1.IconRightVisible = true;
-			this.bunifuFlatButton1.IconRightZoom = 0D;
-			this.bunifuFlatButton1.IconVisible = true;
-			this.bunifuFlatButton1.IconZoom = 45D;
-			this.bunifuFlatButton1.IsTab = false;
-			this.bunifuFlatButton1.Location = new System.Drawing.Point(166, 512);
-			this.bunifuFlatButton1.Margin = new System.Windows.Forms.Padding(6);
-			this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-			this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent;
-			this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.Transparent;
-			this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-			this.bunifuFlatButton1.selected = false;
-			this.bunifuFlatButton1.Size = new System.Drawing.Size(220, 47);
-			this.bunifuFlatButton1.TabIndex = 118;
-			this.bunifuFlatButton1.Text = "            Sign In";
-			this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-			this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+			this.BunifuFlatButton_SignIn.Activecolor = System.Drawing.Color.Transparent;
+			this.BunifuFlatButton_SignIn.BackColor = System.Drawing.Color.Transparent;
+			this.BunifuFlatButton_SignIn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.BunifuFlatButton_SignIn.BorderRadius = 0;
+			this.BunifuFlatButton_SignIn.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.BunifuFlatButton_SignIn.ButtonText = "            Sign In";
+			this.BunifuFlatButton_SignIn.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.BunifuFlatButton_SignIn.DisabledColor = System.Drawing.Color.Transparent;
+			this.BunifuFlatButton_SignIn.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BunifuFlatButton_SignIn.ForeColor = System.Drawing.Color.White;
+			this.BunifuFlatButton_SignIn.Iconcolor = System.Drawing.Color.Transparent;
+			this.BunifuFlatButton_SignIn.Iconimage = ((System.Drawing.Image)(resources.GetObject("BunifuFlatButton_SignIn.Iconimage")));
+			this.BunifuFlatButton_SignIn.Iconimage_right = null;
+			this.BunifuFlatButton_SignIn.Iconimage_right_Selected = null;
+			this.BunifuFlatButton_SignIn.Iconimage_Selected = null;
+			this.BunifuFlatButton_SignIn.IconMarginLeft = 0;
+			this.BunifuFlatButton_SignIn.IconMarginRight = 0;
+			this.BunifuFlatButton_SignIn.IconRightVisible = true;
+			this.BunifuFlatButton_SignIn.IconRightZoom = 0D;
+			this.BunifuFlatButton_SignIn.IconVisible = true;
+			this.BunifuFlatButton_SignIn.IconZoom = 45D;
+			this.BunifuFlatButton_SignIn.IsTab = false;
+			this.BunifuFlatButton_SignIn.Location = new System.Drawing.Point(166, 512);
+			this.BunifuFlatButton_SignIn.Margin = new System.Windows.Forms.Padding(6);
+			this.BunifuFlatButton_SignIn.Name = "BunifuFlatButton_SignIn";
+			this.BunifuFlatButton_SignIn.Normalcolor = System.Drawing.Color.Transparent;
+			this.BunifuFlatButton_SignIn.OnHovercolor = System.Drawing.Color.Transparent;
+			this.BunifuFlatButton_SignIn.OnHoverTextColor = System.Drawing.Color.White;
+			this.BunifuFlatButton_SignIn.selected = false;
+			this.BunifuFlatButton_SignIn.Size = new System.Drawing.Size(220, 47);
+			this.BunifuFlatButton_SignIn.TabIndex = 118;
+			this.BunifuFlatButton_SignIn.Text = "            Sign In";
+			this.BunifuFlatButton_SignIn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.BunifuFlatButton_SignIn.Textcolor = System.Drawing.Color.White;
+			this.BunifuFlatButton_SignIn.TextFont = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.BunifuFlatButton_SignIn.Click += new System.EventHandler(this.BunifuFlatButton_SignIn_Click);
 			// 
 			// pictureBox1
 			// 
@@ -205,41 +204,41 @@
 			this.label1.TabIndex = 116;
 			this.label1.Text = "Password";
 			// 
-			// bunifuMetroTextbox1
+			// BunifuMetroTextbox_Password
 			// 
-			this.bunifuMetroTextbox1.BackColor = System.Drawing.Color.White;
-			this.bunifuMetroTextbox1.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
-			this.bunifuMetroTextbox1.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(48)))));
-			this.bunifuMetroTextbox1.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
-			this.bunifuMetroTextbox1.BorderThickness = 3;
-			this.bunifuMetroTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMetroTextbox1.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-			this.bunifuMetroTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
-			this.bunifuMetroTextbox1.isPassword = true;
-			this.bunifuMetroTextbox1.Location = new System.Drawing.Point(98, 420);
-			this.bunifuMetroTextbox1.Margin = new System.Windows.Forms.Padding(4);
-			this.bunifuMetroTextbox1.Name = "bunifuMetroTextbox1";
-			this.bunifuMetroTextbox1.Size = new System.Drawing.Size(335, 45);
-			this.bunifuMetroTextbox1.TabIndex = 115;
-			this.bunifuMetroTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.BunifuMetroTextbox_Password.BackColor = System.Drawing.Color.White;
+			this.BunifuMetroTextbox_Password.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+			this.BunifuMetroTextbox_Password.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(48)))));
+			this.BunifuMetroTextbox_Password.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+			this.BunifuMetroTextbox_Password.BorderThickness = 3;
+			this.BunifuMetroTextbox_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.BunifuMetroTextbox_Password.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+			this.BunifuMetroTextbox_Password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+			this.BunifuMetroTextbox_Password.isPassword = true;
+			this.BunifuMetroTextbox_Password.Location = new System.Drawing.Point(98, 420);
+			this.BunifuMetroTextbox_Password.Margin = new System.Windows.Forms.Padding(4);
+			this.BunifuMetroTextbox_Password.Name = "BunifuMetroTextbox_Password";
+			this.BunifuMetroTextbox_Password.Size = new System.Drawing.Size(335, 45);
+			this.BunifuMetroTextbox_Password.TabIndex = 115;
+			this.BunifuMetroTextbox_Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
-			// bunifuMetroTextbox2
+			// BunifuMetroTextbox_Email
 			// 
-			this.bunifuMetroTextbox2.BackColor = System.Drawing.Color.White;
-			this.bunifuMetroTextbox2.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
-			this.bunifuMetroTextbox2.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(48)))));
-			this.bunifuMetroTextbox2.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
-			this.bunifuMetroTextbox2.BorderThickness = 3;
-			this.bunifuMetroTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-			this.bunifuMetroTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-			this.bunifuMetroTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
-			this.bunifuMetroTextbox2.isPassword = false;
-			this.bunifuMetroTextbox2.Location = new System.Drawing.Point(98, 303);
-			this.bunifuMetroTextbox2.Margin = new System.Windows.Forms.Padding(4);
-			this.bunifuMetroTextbox2.Name = "bunifuMetroTextbox2";
-			this.bunifuMetroTextbox2.Size = new System.Drawing.Size(335, 45);
-			this.bunifuMetroTextbox2.TabIndex = 114;
-			this.bunifuMetroTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+			this.BunifuMetroTextbox_Email.BackColor = System.Drawing.Color.White;
+			this.BunifuMetroTextbox_Email.BorderColorFocused = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+			this.BunifuMetroTextbox_Email.BorderColorIdle = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(29)))), ((int)(((byte)(48)))));
+			this.BunifuMetroTextbox_Email.BorderColorMouseHover = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(126)))), ((int)(((byte)(230)))));
+			this.BunifuMetroTextbox_Email.BorderThickness = 3;
+			this.BunifuMetroTextbox_Email.Cursor = System.Windows.Forms.Cursors.IBeam;
+			this.BunifuMetroTextbox_Email.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+			this.BunifuMetroTextbox_Email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+			this.BunifuMetroTextbox_Email.isPassword = false;
+			this.BunifuMetroTextbox_Email.Location = new System.Drawing.Point(98, 303);
+			this.BunifuMetroTextbox_Email.Margin = new System.Windows.Forms.Padding(4);
+			this.BunifuMetroTextbox_Email.Name = "BunifuMetroTextbox_Email";
+			this.BunifuMetroTextbox_Email.Size = new System.Drawing.Size(335, 45);
+			this.BunifuMetroTextbox_Email.TabIndex = 114;
+			this.BunifuMetroTextbox_Email.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
 			// 
 			// label4
 			// 
@@ -619,7 +618,6 @@
 			this.Name = "LogIn";
 			this.Text = "LogIn";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-			this.Load += new System.EventHandler(this.LogIn_Load);
 			this.bunifuGradientPanel1.ResumeLayout(false);
 			this.bunifuGradientPanel1.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -641,11 +639,11 @@
 
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
         private System.Windows.Forms.Label label67;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
+        private Bunifu.Framework.UI.BunifuFlatButton BunifuFlatButton_SignIn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox1;
-        private Bunifu.Framework.UI.BunifuMetroTextbox bunifuMetroTextbox2;
+        private Bunifu.Framework.UI.BunifuMetroTextbox BunifuMetroTextbox_Password;
+        private Bunifu.Framework.UI.BunifuMetroTextbox BunifuMetroTextbox_Email;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
