@@ -9,6 +9,7 @@ namespace Hosital_Management_System
         private bool isCollapsed;
         public MainForm()
         {
+		
             InitializeComponent();
         }
 

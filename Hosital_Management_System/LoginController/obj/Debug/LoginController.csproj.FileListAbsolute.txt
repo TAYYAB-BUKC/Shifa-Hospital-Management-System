@@ -1,0 +1,10 @@
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\LoginController.dll
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\LoginController.pdb
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\Login_DB.dll
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\Login_DB.pdb
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.csprojAssemblyReference.cache
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.csproj.CoreCompileInputs.cache
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.csproj.CopyComplete
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.dll
+C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.pdb

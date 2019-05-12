@@ -63,6 +63,8 @@
 			this.pictureBox8 = new System.Windows.Forms.PictureBox();
 			this.pictureBox7 = new System.Windows.Forms.PictureBox();
 			this.pictureBox6 = new System.Windows.Forms.PictureBox();
+			this.Cb_Role = new System.Windows.Forms.ComboBox();
+			this.label12 = new System.Windows.Forms.Label();
 			this.bunifuGradientPanel1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -83,6 +85,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
 			this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+			this.bunifuGradientPanel1.Controls.Add(this.label12);
+			this.bunifuGradientPanel1.Controls.Add(this.Cb_Role);
 			this.bunifuGradientPanel1.Controls.Add(this.label5);
 			this.bunifuGradientPanel1.Controls.Add(this.label3);
 			this.bunifuGradientPanel1.Controls.Add(this.label2);
@@ -101,7 +105,7 @@
 			this.bunifuGradientPanel1.MaximumSize = new System.Drawing.Size(510, 699);
 			this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
 			this.bunifuGradientPanel1.Quality = 10;
-			this.bunifuGradientPanel1.Size = new System.Drawing.Size(510, 567);
+			this.bunifuGradientPanel1.Size = new System.Drawing.Size(510, 696);
 			this.bunifuGradientPanel1.TabIndex = 112;
 			// 
 			// label5
@@ -110,7 +114,7 @@
 			this.label5.BackColor = System.Drawing.Color.Transparent;
 			this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-			this.label5.Location = new System.Drawing.Point(292, 589);
+			this.label5.Location = new System.Drawing.Point(290, 662);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(57, 16);
 			this.label5.TabIndex = 121;
@@ -123,7 +127,7 @@
 			this.label3.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.label3.Font = new System.Drawing.Font("Harlow Solid Italic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label3.ForeColor = System.Drawing.Color.Gray;
-			this.label3.Location = new System.Drawing.Point(162, 589);
+			this.label3.Location = new System.Drawing.Point(160, 662);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(124, 20);
 			this.label3.TabIndex = 120;
@@ -136,7 +140,7 @@
 			this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
 			this.label2.Font = new System.Drawing.Font("Harlow Solid Italic", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(234)))), ((int)(((byte)(255)))));
-			this.label2.Location = new System.Drawing.Point(311, 469);
+			this.label2.Location = new System.Drawing.Point(309, 559);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(122, 20);
 			this.label2.TabIndex = 119;
@@ -166,7 +170,7 @@
 			this.BunifuFlatButton_SignIn.IconVisible = true;
 			this.BunifuFlatButton_SignIn.IconZoom = 45D;
 			this.BunifuFlatButton_SignIn.IsTab = false;
-			this.BunifuFlatButton_SignIn.Location = new System.Drawing.Point(166, 512);
+			this.BunifuFlatButton_SignIn.Location = new System.Drawing.Point(164, 585);
 			this.BunifuFlatButton_SignIn.Margin = new System.Windows.Forms.Padding(6);
 			this.BunifuFlatButton_SignIn.Name = "BunifuFlatButton_SignIn";
 			this.BunifuFlatButton_SignIn.Normalcolor = System.Drawing.Color.Transparent;
@@ -602,6 +606,39 @@
 			this.pictureBox6.TabIndex = 117;
 			this.pictureBox6.TabStop = false;
 			// 
+			// Cb_Role
+			// 
+			this.Cb_Role.AutoCompleteCustomSource.AddRange(new string[] {
+            "Male",
+            "Female"});
+			this.Cb_Role.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.Cb_Role.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Cb_Role.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(144)))), ((int)(((byte)(76)))), ((int)(((byte)(232)))));
+			this.Cb_Role.FormattingEnabled = true;
+			this.Cb_Role.Items.AddRange(new object[] {
+            "Administrator",
+            "Doctor",
+            "Patient",
+            "Accountant",
+            "Pharmacist",
+            "Nurse"});
+			this.Cb_Role.Location = new System.Drawing.Point(96, 515);
+			this.Cb_Role.Name = "Cb_Role";
+			this.Cb_Role.Size = new System.Drawing.Size(335, 32);
+			this.Cb_Role.TabIndex = 122;
+			// 
+			// label12
+			// 
+			this.label12.AutoSize = true;
+			this.label12.BackColor = System.Drawing.Color.Transparent;
+			this.label12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label12.ForeColor = System.Drawing.Color.White;
+			this.label12.Location = new System.Drawing.Point(230, 479);
+			this.label12.Name = "label12";
+			this.label12.Size = new System.Drawing.Size(36, 16);
+			this.label12.TabIndex = 123;
+			this.label12.Text = "Role";
+			// 
 			// LogIn
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -670,5 +707,7 @@
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox6;
-    }
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.ComboBox Cb_Role;
+	}
 }
