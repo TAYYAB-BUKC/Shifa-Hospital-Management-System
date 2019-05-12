@@ -1,5 +1,6 @@
 ﻿using Hosital_Management_System.Properties;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Hosital_Management_System
@@ -7,11 +8,66 @@ namespace Hosital_Management_System
     public partial class MainForm : Form
     {
         private bool isCollapsed;
-        public MainForm()
-        {
-		
-            InitializeComponent();
-        }
+		private string RoleCheck;
+
+		public MainForm(string roleCheck)
+		{
+			InitializeComponent();
+			RoleCheck = roleCheck;
+			if (RoleCheck.Equals("Administrator"))
+			{
+				Pn_AddTest.Visible = false;
+				Pn_Bed.Visible = false;
+				Pn_BedAllotment.Visible = false;
+				Pn_BedCategory.Visible = false;
+				Pn_DoctorsSiteMap.Visible = false;
+				Pn_EditAccountants.Visible = false;
+				Pn_EditDoctor.Visible = false;
+				Pn_EditLaboratories.Visible = false;
+				Pn_EditNurse.Visible = false;
+				Pn_EditPharmacist.Visible = false;
+				Pn_ExpenseCategories.Visible = false;
+				Pn_Expenses.Visible = false;
+				Pn_Home.Visible = false;
+				Pn_LaboratoristSiteMap.Visible = false;
+				Pn_LabTest.Visible = false;
+				Pn_LabTestCategories.Visible = false;
+				Pn_ManageAccountants.Visible = false;
+				Pn_ManageBedAllotment.Visible = false;
+				Pn_ManageBedCategories.Visible = false;
+				Pn_ManageBeds.Visible = false;
+				Pn_ManageDoctor.Visible = false;
+				Pn_ManageExpenseCategories.Visible = false;
+				Pn_ManageExpenses.Visible = false;
+				Pn_ManageLaboratories.Visible = false;
+				Pn_ManageLabTest.Visible = false;
+				Pn_ManageLabTestCatgories.Visible = false;
+				Pn_ManageMedicineCategories.Visible = false;
+				Pn_ManageMedicines.Visible = false;
+				Pn_ManageNurses.Visible = false;
+				Pn_ManagePatientTest.Visible = false;
+				Pn_ManagePayment.Visible = false;
+				Pn_ManagePaymentCategories.Visible = false;
+				Pn_ManageProfile.Visible = false;
+				Pn_Medicine.Visible = false;
+				Pn_MedicineCategories.Visible = false;
+				Pn_NursesSiteMap.Visible = false;
+				Pn_PatientTest.Visible = false;
+				Pn_Payment.Visible = false;
+				Pn_PharmacistSiteMap.Visible = false;
+				Pn_ManageLabTestCatgories.Visible = false;
+				Pn_ManageMedicineCategories.Visible = false;
+				Pn_ManageMedicines.Visible = false;
+				Pn_Profile.Visible = false;
+				Pn_AdminSiteMap.Visible = true;
+				Pn_AdminSiteMap.Location = new Point(373, 53);
+				Pn_AdminSiteMap.Size = new Size(929, 723);
+			}
+			else
+			{
+
+			}
+		}
 
         private void Form1_Load(object sender, EventArgs e)
         {

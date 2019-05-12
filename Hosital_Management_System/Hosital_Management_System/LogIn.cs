@@ -22,8 +22,8 @@ namespace Hosital_Management_System
 
 		private void BunifuFlatButton_SignIn_Click(object sender, EventArgs e)
 		{
-			MainForm mainForm = new MainForm();
-			login_Controller.Login(BunifuMetroTextbox_Email,BunifuMetroTextbox_Password,this,mainForm,Convert.ToString(Cb_Role.SelectedItem));
+			MainForm adminmainForm = new MainForm("Administrator");
+			login_Controller.Login(BunifuMetroTextbox_Email,BunifuMetroTextbox_Password,this,adminmainForm,Convert.ToString(Cb_Role.SelectedItem));
 		}
 	}
 }
