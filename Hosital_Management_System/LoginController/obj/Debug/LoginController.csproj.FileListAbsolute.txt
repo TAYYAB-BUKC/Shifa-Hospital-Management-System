@@ -8,3 +8,11 @@ C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\H
 C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.csproj.CopyComplete
 C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.dll
 C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\LoginController.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\LoginController.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\Login_DB.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\bin\Debug\Login_DB.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.csprojResolveAssemblyReference.cache
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\LoginController\obj\Debug\LoginController.pdb

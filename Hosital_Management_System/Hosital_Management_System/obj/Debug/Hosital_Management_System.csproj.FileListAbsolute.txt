@@ -51,3 +51,18 @@ C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\H
 C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Login_DB.dll
 C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\LoginController.pdb
 C:\Users\TAYYAB DOST\Source\Repos\TAYYAB-BUKC\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Login_DB.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Hosital_Management_System.exe.config
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.exe
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Hosital_Management_System.exe
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Hosital_Management_System.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\LoginController.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Login_DB.dll
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\LoginController.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\bin\Debug\Login_DB.pdb
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csprojResolveAssemblyReference.cache
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.MainForm.resources
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.LogIn.resources
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.Properties.Resources.resources
+C:\Users\ZUNAIRA\Documents\Visual Studio 2013\Projects\Shifa-Hospital-Management-System\Hosital_Management_System\Hosital_Management_System\obj\Debug\Hosital_Management_System.csproj.GenerateResource.Cache
